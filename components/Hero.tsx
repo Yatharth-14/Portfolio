@@ -2,6 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/text-generate-effect'
 import MagicButton from './ui/MagicButton'
+import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -25,12 +26,12 @@ const Hero = () => {
             <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center z-10'>
                 <h2 className='uppercase z-10 tracking-widest text-xs text-center text-blue-100 max-w-80'>Dynamic Web magic with next.js</h2>
 
-                <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Transforming Concepts into Seamless Experiences'></TextGenerateEffect>
+                <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Transforming Concepts into Seamless User Experiences'></TextGenerateEffect>
 
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>Hi, I&apos;m Yatharth, a Front-End developer.</p>
 
                 <a href="#about">
-                    <MagicButton></MagicButton>
+                    <MagicButton title='Show my work' icon={<FaLocationArrow></FaLocationArrow>} position='right'></MagicButton>
                 </a>
             </div>
         </div>
