@@ -10,9 +10,9 @@ const Hero = () => {
         {/* spotlight */}
       <div>
         <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='white'></Spotlight>
-        <Spotlight className='top-10 left-2/4 h-[80vh] w-[50vw]' fill='purple'></Spotlight>
-        <Spotlight className='top-28 h-[80vh] w-[50vw]' fill='blue'></Spotlight>
-        <Spotlight className='top-28 left-2/4 h-[80vh] w-[50vw]' fill='blue'></Spotlight>
+        <Spotlight className='top-10 left-full h-[80vh] w-[50vw]' fill='purple'></Spotlight>
+        <Spotlight className='top-28 left-full h-[80vh] w-[50vw]' fill='blue'></Spotlight>
+        <Spotlight className='top-28 left-60 h-[80vh] w-[50vw]' fill='blue'></Spotlight>
       </div>
 
         {/* grid */}
